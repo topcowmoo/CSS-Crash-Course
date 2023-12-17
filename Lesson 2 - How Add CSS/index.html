@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Crash Course</h1>
+    <h1>Example of this tag getting same style as other h1</h1>
+
+    3 ways to styles to an HTML document:
+
+    1. Inline Styles - CSS declaration that affect a single element. Dont use these.
+    
+    <h2 style="color: orange;">CSS Crash Course</h2>
+
+2. Internal Styles - Adding style tag in the head. CSS rule synatax have to have a selector (h1) and
+ declaration (color: blueviolet;) See h1 above. Selects all the elements in the document and changes style of all.
+Shouldnt use these either unless only have one element to style.
+
+3. External Styles - Add link in the head section to link style.css to index.
+
+head
+    link rel="stylesheet" href="./style.css"
+/head
+The styles.css sheet will give styles to specific elements now.
+</body>
+</html>
