@@ -22,5 +22,5 @@ with same name */
 is useful target element that already has style applied to it*/
 
 #test {
-    color: yellow;
+    color: rgba(146, 146, 71, 0.873);
 }
