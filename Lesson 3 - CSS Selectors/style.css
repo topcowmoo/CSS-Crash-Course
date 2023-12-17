@@ -1,0 +1,26 @@
+/* Element Selector */
+h1 {
+    color: Red;
+}
+
+/* Universal Selector--Mainly used to reset styles that we dont want on our page */
+* {
+    color: purple;
+}
+
+/* Class selector--Most common way to style elements. styles every element the same way
+with same name */
+.one {
+    color: green;
+}
+
+.two {
+    color: blue;
+}
+
+/* ID selector--Applies to one specific element on page. Is rarely used but
+is useful target element that already has style applied to it*/
+
+#test {
+    color: yellow;
+}
