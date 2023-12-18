@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade, Specificity & Inheritance</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Cascade - when two rules apply that have equal specificity, the one that comes
+        last in the CSS is the one that will be applied. h2 green then h2 orange. Orange wins.
+    </h1>
+
+
+    <h2>Specificity - this element selector is the LEAST specific</h2>
+
+    <h3 class="subheading">Class selector is more specific that element selector</h3>
+    
+    <h4 id="title">Id selector is even more specifc that class selectors</h4>
+
+    <h4 id="title" style="color: purple">Inline stye is even more specifc that ID selectors</h4>
+
+
+    <h2 class="import">if you add !important to any style it will win.
+    </h2>
+
+
+    <h1 id="jump">Inheritance: some values set on parent elements are inherited by their
+        children elements and some aren't.
+    </h1>
+
+    <div class="inheritance">
+        <p>This paragraph has inherited the style from the parent div.inheritance</p>
+        </div>
+
+</body>
+</html>
