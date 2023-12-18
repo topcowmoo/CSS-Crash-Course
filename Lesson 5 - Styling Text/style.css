@@ -1,0 +1,9 @@
+/* Font Styles */
+
+.font-styles {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+}
