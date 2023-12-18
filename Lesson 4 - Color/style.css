@@ -1,0 +1,18 @@
+/* Hex Value */
+h1 {
+    color: #1295ab;
+}
+
+/* RGBA */
+h2 {
+    color: rgb(200, 122, 118);
+}
+
+/* Background Color */
+.orange {
+    background-color: orange;
+}
+
+.green{
+    background-color: yellow;
+}
