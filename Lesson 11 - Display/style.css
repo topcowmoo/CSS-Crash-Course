@@ -1,0 +1,18 @@
+.sample-1 {
+    border: 1px solid red;
+}
+
+.sample-2 {
+    border: 1px solid blue;
+}
+
+
+.sample-1a {
+    border: 1px solid red;
+    display: inline;
+}
+
+.sample-2a {
+    border: 1px solid blue;
+    display: block;
+}
