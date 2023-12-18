@@ -1,0 +1,14 @@
+/* Text Layout */
+.orange {
+    background-color: orange;;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    line-height: 2;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+.green{
+    background-color: yellow;
+}
